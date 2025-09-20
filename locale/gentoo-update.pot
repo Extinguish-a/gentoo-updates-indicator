@@ -1,0 +1,208 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gentoo-update 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-15 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# extension.js UI
+msgid "Settings"
+msgstr ""
+
+msgid "Update now"
+msgstr ""
+
+msgid "Open package manager"
+msgstr ""
+
+msgid "Sync Portage now"
+msgstr ""
+
+msgid "Rebuild World now"
+msgstr ""
+
+msgid "Checking"
+msgstr ""
+
+msgid "Check now"
+msgstr ""
+
+msgid "Waiting first check"
+msgstr ""
+
+msgid "Last checked"
+msgstr ""
+
+msgid "%d update pending"
+msgid_plural "%d updates pending"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "New Gentoo Update"
+msgid_plural "New Gentoo Updates"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "There is %d update pending"
+msgid_plural "There are %d updates pending"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Error"
+msgstr ""
+
+msgid "Up to date :)"
+msgstr ""
+
+# prefs.xml strings (translatable="yes")
+msgid "Basic settings"
+msgstr ""
+
+msgid "Checking for updates"
+msgstr ""
+
+msgid "Time to wait before first check (seconds)"
+msgstr ""
+
+msgid "Interval between updates check (minutes)"
+msgstr ""
+
+msgid "Indicator"
+msgstr ""
+
+msgid "Always visible"
+msgstr ""
+
+msgid "Use built-in icons"
+msgstr ""
+
+msgid "Show updates count on indicator"
+msgstr ""
+
+msgid "Position in Panel"
+msgstr ""
+
+msgid "Left"
+msgstr ""
+
+msgid "Center"
+msgstr ""
+
+msgid "Right"
+msgstr ""
+
+msgid "Menu"
+msgstr ""
+
+msgid "Auto-expand updates list if updates count is less than this number (0 to disable)"
+msgstr ""
+
+msgid "Strip out versions numbers"
+msgstr ""
+
+msgid "Show date/time of last check"
+msgstr ""
+
+msgid "Notification"
+msgstr ""
+
+msgid "Send a notification when new updates are available"
+msgstr ""
+
+msgid "How much information to show on notifications"
+msgstr ""
+
+msgid "Count only"
+msgstr ""
+
+msgid "New updates names"
+msgstr ""
+
+msgid "All updates names"
+msgstr ""
+
+msgid "Automation"
+msgstr ""
+
+msgid "Open terminal automatically when new updates appear"
+msgstr ""
+
+msgid "Advanced settings"
+msgstr ""
+
+msgid "Command to check for package updates"
+msgstr ""
+
+msgid "Disable output parsing, count every line as an update. This is the old behavior."
+msgstr ""
+
+msgid "Command to update packages"
+msgstr ""
+
+msgid "Preferred terminal"
+msgstr ""
+
+msgid "Selecting a preset updates the commands below. Choose “custom” to keep your own commands."
+msgstr ""
+
+msgid "GNOME Terminal"
+msgstr ""
+
+msgid "Tilix"
+msgstr ""
+
+msgid "Terminator"
+msgstr ""
+
+msgid "Kitty"
+msgstr ""
+
+msgid "Alacritty"
+msgstr ""
+
+msgid "Foot (Wayland)"
+msgstr ""
+
+msgid "Custom"
+msgstr ""
+
+msgid "Portage package DB path - To detect when new packages are installed"
+msgstr ""
+
+msgid "Command to open package manager (optional)"
+msgstr ""
+
+msgid "Command to sync Portage repositories (optional)"
+msgstr ""
+
+msgid "Enable scheduled sync"
+msgstr ""
+
+msgid "Scheduled sync interval"
+msgstr ""
+
+msgid "Hours"
+msgstr ""
+
+msgid "Days"
+msgstr ""
+
+msgid "Enable fixed daily sync time"
+msgstr ""
+
+msgid "Fixed daily sync time"
+msgstr ""
+
+msgid "Command to show info for a package (optional)"
+msgstr ""
+
+msgid "Display package names as links (underlined)"
+msgstr ""
+
+msgid "About"
+msgstr ""

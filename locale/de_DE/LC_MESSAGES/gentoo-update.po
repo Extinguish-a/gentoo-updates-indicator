@@ -1,0 +1,209 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gentoo-update\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-15 00:00+0000\n"
+"PO-Revision-Date: 2025-09-15 00:00+0000\n"
+"Last-Translator: omar <you@example.com>\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Panel/menu
+msgid "Settings"
+msgstr "Einstellungen"
+
+msgid "Update now"
+msgstr "Jetzt aktualisieren"
+
+msgid "Open package manager"
+msgstr "Paketverwaltung öffnen"
+
+msgid "Sync Portage now"
+msgstr "Portage jetzt synchronisieren"
+
+msgid "Rebuild World now"
+msgstr "World jetzt neu aufbauen"
+
+msgid "Checking"
+msgstr "Prüfe"
+
+msgid "Check now"
+msgstr "Jetzt prüfen"
+
+msgid "Waiting first check"
+msgstr "Warte auf erste Prüfung"
+
+msgid "Last checked"
+msgstr "Letzte Prüfung"
+
+msgid "%d update pending"
+msgid_plural "%d updates pending"
+msgstr[0] "%d Aktualisierung ausstehend"
+msgstr[1] "%d Aktualisierungen ausstehend"
+
+msgid "New Gentoo Update"
+msgid_plural "New Gentoo Updates"
+msgstr[0] "Neue Gentoo-Aktualisierung"
+msgstr[1] "Neue Gentoo-Aktualisierungen"
+
+msgid "There is %d update pending"
+msgid_plural "There are %d updates pending"
+msgstr[0] "Es ist %d Aktualisierung ausstehend"
+msgstr[1] "Es sind %d Aktualisierungen ausstehend"
+
+msgid "Error"
+msgstr "Fehler"
+
+msgid "Up to date :)"
+msgstr "Auf dem neuesten Stand :)"
+
+# Preferences (prefs.xml)
+msgid "Basic settings"
+msgstr "Grundeinstellungen"
+
+msgid "Checking for updates"
+msgstr "Nach Updates suchen"
+
+msgid "Time to wait before first check (seconds)"
+msgstr "Wartezeit vor erster Prüfung (Sekunden)"
+
+msgid "Interval between updates check (minutes)"
+msgstr "Intervall zwischen Prüfungen (Minuten)"
+
+msgid "Indicator"
+msgstr "Indikator"
+
+msgid "Always visible"
+msgstr "Immer sichtbar"
+
+msgid "Use built-in icons"
+msgstr "Integrierte Symbole verwenden"
+
+msgid "Show updates count on indicator"
+msgstr "Anzahl der Updates im Indikator anzeigen"
+
+msgid "Position in Panel"
+msgstr "Position im Panel"
+
+msgid "Left"
+msgstr "Links"
+
+msgid "Center"
+msgstr "Mitte"
+
+msgid "Right"
+msgstr "Rechts"
+
+msgid "Menu"
+msgstr "Menü"
+
+msgid "Auto-expand updates list if updates count is less than this number (0 to disable)"
+msgstr "Liste automatisch aufklappen, wenn die Anzahl der Updates kleiner ist als dieser Wert (0 deaktiviert)"
+
+msgid "Strip out versions numbers"
+msgstr "Versionsnummern ausblenden"
+
+msgid "Show date/time of last check"
+msgstr "Datum/Uhrzeit der letzten Prüfung anzeigen"
+
+msgid "Notification"
+msgstr "Benachrichtigungen"
+
+msgid "Send a notification when new updates are available"
+msgstr "Benachrichtigung senden, wenn neue Updates verfügbar sind"
+
+msgid "How much information to show on notifications"
+msgstr "Detailgrad der Benachrichtigungen"
+
+msgid "Count only"
+msgstr "Nur Anzahl"
+
+msgid "New updates names"
+msgstr "Namen neuer Updates"
+
+msgid "All updates names"
+msgstr "Alle Updatenamen"
+
+msgid "Automation"
+msgstr "Automatisierung"
+
+msgid "Open terminal automatically when new updates appear"
+msgstr "Terminal automatisch öffnen, wenn neue Updates erscheinen"
+
+msgid "Advanced settings"
+msgstr "Erweiterte Einstellungen"
+
+msgid "Command to check for package updates"
+msgstr "Befehl zum Prüfen auf Updates"
+
+msgid "Disable output parsing, count every line as an update. This is the old behavior."
+msgstr "Ausgabeanalyse deaktivieren; jede Zeile als Update zählen. Altes Verhalten."
+
+msgid "Command to update packages"
+msgstr "Befehl zum Aktualisieren der Pakete"
+
+msgid "Preferred terminal"
+msgstr "Bevorzugtes Terminal"
+
+msgid "Selecting a preset updates the commands below. Choose “custom” to keep your own commands."
+msgstr "Die Auswahl einer Vorgabe aktualisiert die Befehle unten. Mit „Benutzerdefiniert“ behältst du deine."
+
+msgid "GNOME Terminal"
+msgstr "GNOME Terminal"
+
+msgid "Tilix"
+msgstr "Tilix"
+
+msgid "Terminator"
+msgstr "Terminator"
+
+msgid "Kitty"
+msgstr "Kitty"
+
+msgid "Alacritty"
+msgstr "Alacritty"
+
+msgid "Foot (Wayland)"
+msgstr "Foot (Wayland)"
+
+msgid "Custom"
+msgstr "Benutzerdefiniert"
+
+msgid "Portage package DB path - To detect when new packages are installed"
+msgstr "Pfad zur Portage-Paketdatenbank – um neue Installationen zu erkennen"
+
+msgid "Command to open package manager (optional)"
+msgstr "Befehl zum Öffnen der Paketverwaltung (optional)"
+
+msgid "Command to sync Portage repositories (optional)"
+msgstr "Befehl zum Synchronisieren der Portage-Repositories (optional)"
+
+msgid "Enable scheduled sync"
+msgstr "Geplante Synchronisierung aktivieren"
+
+msgid "Scheduled sync interval"
+msgstr "Intervall der geplanten Synchronisierung"
+
+msgid "Hours"
+msgstr "Stunden"
+
+msgid "Days"
+msgstr "Tage"
+
+msgid "Enable fixed daily sync time"
+msgstr "Feste tägliche Synchronisationszeit aktivieren"
+
+msgid "Fixed daily sync time"
+msgstr "Feste tägliche Synchronisationszeit"
+
+msgid "Command to show info for a package (optional)"
+msgstr "Befehl zum Anzeigen von Paketinformationen (optional)"
+
+msgid "Display package names as links (underlined)"
+msgstr "Paketnamen als Links anzeigen (unterstrichen)"
+
+msgid "About"
+msgstr "Info"

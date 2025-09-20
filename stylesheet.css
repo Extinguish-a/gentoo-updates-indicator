@@ -1,0 +1,54 @@
+/*
+    This file is part of Gentoo Updates Indicator
+
+    Gentoo Updates Indicator is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Gentoo Updates Indicator is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Gentoo Updates Indicator.  If not, see <http://www.gnu.org/licenses/>.
+
+    Copyright 2016-2022 Raphaël Rochet
+*/
+
+.gentoo-updates-menubutton {
+	/* Meant to be used as an override to display a small system-menu-action */
+	border-radius: 10px;
+	padding: 0px 4px;
+}
+.gentoo-updates-menubutton:hover, .gentoo-updates-menubutton:focus {
+	/* 1px borders disapears, need to compensate */
+	padding: 1px 5px;
+}
+.gentoo-updates-menubutton > StIcon {
+	icon-size: 16px;
+}
+
+.gentoo-updates-updates-list {
+	padding: .8em;
+}
+
+.gentoo-updates-update-title {
+	font-weight: bold;
+}
+
+.gentoo-updates-update-name {
+	padding-right: 1em;
+}
+.gentoo-updates-update-name-link {
+	padding-right: 1em;
+	text-decoration: underline;
+}
+.gentoo-updates-update-version-from {
+	font-size: 75%;
+	vertical-align: baseline;
+}
+.gentoo-updates-update-version-to {
+	vertical-align: baseline;
+}

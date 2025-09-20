@@ -1,0 +1,14 @@
+{
+  "description": "Portage-aware GNOME Shell indicator derived from Raphael Rochet's Arch Linux Updates Indicator. Keeps Gentoo systems in sync with configurable Portage commands and desktop notifications.",
+  "name": "Gentoo Updates Indicator",
+  "shell-version": [
+    "47",
+    "48",
+    "49"
+  ],
+  "url": "https://www.gentoo.org",
+  "uuid": "gentoo-updates-indicator@local",
+  "gettext-domain": "gentoo-updates-indicator",
+  "settings-schema": "org.gnome.shell.extensions.gentoo-updates-indicator",
+  "version": 1
+}
