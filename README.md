@@ -4,7 +4,22 @@
 
 > Portage-aware GNOME Shell extension that keeps Gentoo workstations in sync with smart scheduling, upgrade insights, and one-click maintenance commands.
 
-Gentoo Updates Indicator is a polished port of Raphaël Rochet’s celebrated **Arch Linux Updates Indicator**, tailored for Portage workflows. The extension adds a discrete status icon to the GNOME top bar, keeps track of `emerge -puDN @world`, and turns common maintenance tasks—sync, update, rebuild—into one-click actions that launch in the terminal you already use.
+<table>
+  <tr>
+    <td align="center" valign="middle" width="156">
+      <img src="icons/gentoo-updates-logo.png" height="144" alt="Gentoo Updates Indicator logo">
+    </td>
+    <td valign="middle">
+      <p align="justify">
+        <strong>Gentoo Updates Indicator</strong> is a polished port of Raphael Rochet celebrated
+        <em>Arch Linux Updates Indicator</em>, tailored for Portage workflows. The extension adds a discrete
+        status icon to the GNOME top bar, keeps track of <code>emerge -puDN @world</code>, and turns common
+        maintenance tasks—sync, update, rebuild—into one-click actions that launch in the terminal you already use.
+      </p>
+    </td>
+  </tr>
+</table>
+
 
 ---
 
@@ -130,8 +145,69 @@ Tips:
 
 ## Credits & License
 - Original concept & UX: [Raphaël Rochet – Arch Linux Updates Indicator](https://github.com/RaphaelRochet/arch-update).
-- Gentoo port & maintenance: Omar and contributors (see `MAINTENER_NOTES.md`).
+- Gentoo port & maintenance: Omar Semlali.
 - Icons: Gentoo-themed symbolic set following GNOME HIG; falls back to Adwaita when available.
 - Licensed under the [GNU GPL v3 or later](LICENCE.txt).
 
 If you package this extension downstream, please keep attribution intact and link back to this repository.
+
+## Screenshots
+
+---
+
+<p align="center">
+  <img src="docs/screenshots/1.png" width="600" alt="Indicator hidden">
+</p>
+<p align="center"><em>1. Startup state right after GNOME login — the indicator shows a gear icon while initializing checks.</em></p>
+
+---
+
+<p align="center">
+  <img src="docs/screenshots/2.png" width="600" alt="Indicator with badge">
+</p>
+<p align="center"><em>2. Top bar with badge count – updates detected and pending.</em></p>
+
+---
+
+<p align="center">
+  <img src="docs/screenshots/3.png" width="600" alt="Indicator menu">
+</p>
+<p align="center"><em>3. Indicator menu with quick actions for update, sync, and rebuild.</em></p>
+
+---
+
+<p align="center">
+  <img src="docs/screenshots/4.png" width="600" alt="Package update detail">
+</p>
+<p align="center"><em>4. Package update details showing installed and available versions.</em></p>
+
+---
+
+<p align="center">
+  <img src="docs/screenshots/5.png" width="600" alt="Preferences – Basic settings">
+</p>
+<p align="center"><em>5. Preferences window – <strong>Basic settings</strong> tab with general options and notifications.</em></p>
+
+---
+
+<p align="center">
+  <img src="docs/screenshots/6.png" width="600" alt="Preferences – Advanced settings">
+</p>
+<p align="center"><em>6. Preferences window – <strong>Advanced settings</strong> tab for custom commands and scheduling.</em></p>
+
+---
+
+<p align="center">
+  <img src="docs/screenshots/7.png" width="600" alt="Preferences – About tab">
+</p>
+<p align="center"><em>7. <strong>About</strong> tab with logo, version, and project information.</em></p>
+
+---
+
+<p align="center">
+  <img src="docs/screenshots/8.png" width="720" alt="Gentoo packages website">
+</p>
+<p align="center"><em>8. Integration with packages.gentoo.org – example package details page.</em></p>
+
+---
+
